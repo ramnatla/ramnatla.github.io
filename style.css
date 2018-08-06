@@ -23,6 +23,23 @@ body{
 	background-color: black;
 }
 
+.projects{
+	margin-top: -45px;
+	background-color: lightblue;
+}
+
+.projects-header{
+	font-size: 2em;
+}
+
+.projects-content{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 20px;
+	padding-top: 1px;
+}
+
 .future{
 	background-color: #a3b0bd;
 	margin-top: -50px;
@@ -87,6 +104,10 @@ a{
 	text-decoration: none;
 }
 
+.project-github{
+	text-decoration: underline;
+}
+
 .linklogo{
 	max-width: 80px;
 	height: auto;
@@ -95,6 +116,68 @@ a{
 h2{
 	font-size: 20px;
 }
+
+.project-flex-container{
+	display: inline-flex;
+	margin-top: -40px;
+}
+
+.project-info{
+	margin: 40px;
+	/*border: 1px solid black;
+	padding: 5px;*/
+}
+
+.projectlogo:hover{
+ 	cursor: pointer;
+}
+.projectlogo{
+	max-height: 200px;
+	width: auto;
+}
+
+
+
+.overlay-container{
+	position: relative;
+	width: 100%;
+	padding: 0px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+  padding: 0px;
+}
+
+.overlay-container:hover .overlay {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  /*mess with this to move text*/
+  width: 300px;
+  transform: translate(-50%, -70%);
+
+  text-align: left;
+}
+
+
 
 .contact-link{
 	display: inline-flex;
