@@ -138,7 +138,7 @@ h2{
 
 
 
-.overlay-container{
+/*.overlay-container{
 	position: relative;
 	width: 100%;
 	padding: 0px;
@@ -170,12 +170,12 @@ h2{
   top: 50%;
   left: 50%;
 
-  /*mess with this to move text*/
-  width: 300px;
+  mess with this to move text*/
+  /*width: 300px;
   transform: translate(-50%, -70%);
 
   text-align: left;
-}
+}*/
 
 
 
