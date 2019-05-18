@@ -156,49 +156,6 @@ h2{
 	border: 1px solid black;
 }
 
-
-
-/*.overlay-container{
-	position: relative;
-	width: 100%;
-	padding: 0px;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
-  padding: 0px;
-}
-
-.overlay-container:hover .overlay {
-  opacity: 1;
-  cursor: pointer;
-}
-
-.text {
-  color: black;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-
-  mess with this to move text*/
-  /*width: 300px;
-  transform: translate(-50%, -70%);
-
-  text-align: left;
-}*/
-
-
-
 .contact-link{
 	display: inline-flex;
 	margin: 40px;
