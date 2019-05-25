@@ -9,7 +9,7 @@ body{
 	margin-right: auto;
 	border-radius: 50%;
 	background-position: 50%;
-	max-width: 200px;
+	max-width: 250px;
 	height: auto;
 }
 
@@ -21,7 +21,9 @@ body{
 }
 
 .intro{
+	padding-top: 25px;
 	background-color: black;
+	padding-bottom: 25px;
 }
 
 .projects{
