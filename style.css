@@ -1,7 +1,15 @@
-body{
+html, body {
 	font-family: 'Roboto', sans-serif;
-	margin: 0px;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+  background-color: #F8F8F8;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
+
+/*Intro Section*/
 
 .circle{
 	display: block;
@@ -26,29 +34,11 @@ body{
 	padding-bottom: 25px;
 }
 
-.projects{
-	margin-top: -45px;
-	background-color: lightblue;
-}
-
-.projects-header{
-	font-size: 2em;
-}
-
-.projects-content{
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	padding-bottom: 20px;
-	padding-top: 1px;
-}
-
 .future{
 	background-color: #a3b0bd;
 	margin-top: -50px;
 	padding-top: 5px;
 }
-
 
 .future-header{
 	font-size: 2em;
@@ -65,6 +55,23 @@ body{
 
 .laptop{
 	margin-top: -30px;
+}
+
+.projects{
+	margin-top: -45px;
+	background-color: lightblue;
+}
+
+.projects-header{
+	font-size: 2em;
+}
+
+.projects-content{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 20px;
+	padding-top: 1px;
 }
 
 .summer{
@@ -113,12 +120,6 @@ body{
 	margin-right: auto;
 	max-width: 500px;
 	height: auto;
-}
-
-.contact-content{
-	display: block;
-	text-align: center;
-	background-color: white;
 }
 
 a{
@@ -170,4 +171,10 @@ h2{
 	background-color: white;
 	filter: invert(100%);
 	
+}
+
+.contact-content{
+	display: block;
+	text-align: center;
+	background-color: white;
 }
