@@ -34,48 +34,8 @@ html, body {
 	padding-bottom: 25px;
 }
 
-.future{
-	background-color: #a3b0bd;
-	margin-top: -50px;
-	padding-top: 5px;
-}
-
-.future-header{
-	font-size: 2em;
-}
-
-.future-content{
-	text-align: center;
-	color: black;
-	width: 600px;
-	margin-left: auto;
-	margin-right: auto;
-	padding-bottom: 50px;
-}
-
-.laptop{
-	margin-top: -30px;
-}
-
-.projects{
-	margin-top: -45px;
-	background-color: lightblue;
-}
-
-.projects-header{
-	font-size: 2em;
-}
-
-.projects-content{
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	padding-bottom: 20px;
-	padding-top: 1px;
-}
-
 .summer{
-	background-color: #00B624;
+	background-color: #575352;
 	margin-top: -50px;
 	padding-top: 5px;
 }
@@ -91,6 +51,60 @@ html, body {
 	margin-left: auto;
 	margin-right: auto;
 	padding-bottom: 50px;
+}
+
+.microsoft-logo{
+	width: 110%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -20px;
+	margin-bottom: -20px;
+}
+
+.projects{
+	margin-top: -45px;
+	background-color: #7d8ee6;
+}
+
+.projects-header{
+	font-size: 2em;
+}
+
+.projects-content{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 20px;
+	padding-top: 1px;
+}
+
+.current{
+	background-color: #add8e6;
+	margin-top: -50px;
+	padding-top: 5px;
+}
+
+.current-header{
+	font-size: 2em;
+}
+
+.current-content{
+	text-align: center;
+	color: black;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 50px;
+}
+
+.lobsterlogo{
+	width: 75%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .education{
