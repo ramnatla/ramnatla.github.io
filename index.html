@@ -1,117 +1,514 @@
 <!DOCTYPE html>
-<html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-	<title>Ram's Personal Website</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-	<link rel="shortcut icon" href="./images/favicon.png" />
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Ram Natla's Personal Website</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png" >
+
 </head>
+
 <body>
-	<div class="intro">
-		<div class="intro-content">
-			<img class="circle" src="./images/profilepic.jpg">
-			<h1 class="intro-title">Hi I'm Ram Natla!</h1>
-		</div>
-	</div>
 
-	<div class="education">
-		<div class="education-content">
-			<span class="education-header"><h1>EDUCATION</h1></span>
-			<img class="umichlogo" src="./images/umichlogo.jpg">
-			<h1>I'm currently a rising junior studying Computer Science at the University of Michigan</h1>
-		</div>
-	</div>
+   <!-- Header
+   ================================================== -->
+   <header id="home">
 
-	<div class="current">
-		<div class="current-content">
-			<span class="current-header"><h1>CURRENT</h1></span>
-			<img class="lobsterlogo" src="./images/lobster.png">
-			<h1>I am currently working as an Instructional Aide for EECS 280, the Introductory Data Structures and Algorithms Course!</h1>
-		</div>
-	</div>
+      <nav id="nav-wrap">
 
-	<div class="summer">
-		<div class="summer-content">
-			<span class="summer-header"><h1>FUTURE</h1></span>
-			<img class="microsoft-logo" src="./images/microsoftlogo.png">
-			<h1>I will be working at Microsoft as a Software Engineering Intern for Summer 2020</h1>
-		</div>
-	</div>
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
 
-	<div class="projects">
-		<!-- All Images 3:2 Ratio -->
-		<div class="projects-content">
-			<span class="projects-header"><h1>PROJECTS</h1></span>
-			<div class="project-flex-container">
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
+            <li><a class="smoothscroll" href="#portfolio">Projects</a></li>
+         </ul> <!-- end #nav -->
 
-				<div class="project-info">
-					<h1>Facial Recognition App</h1>
-					<a href="https://smart-brain-facial-recognition.herokuapp.com" target="_blank">
-						<div class="overlay-container">
-							<img class="projectlogo" src="./images/smart-brain-icon.PNG">
-						</div>
-					</a>
-				</div>
+      </nav> <!-- end #nav-wrap -->
 
-				<div class="project-info">
-					<h1>Sports News App</h1>
-					<a href="https://sports-news-app.herokuapp.com/" target="_blank">
-						<div class="overlay-container">
-							<img class="projectlogo" src="./images/sports-app-icon.PNG">
-						</div>
-					</a>
-				</div>
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">Ram Natla</h1>
+            <h3><span>Software Engineer</span></h3>
+            <h3><span>University of Michigan</span></h3>
+            <hr />
+            <ul class="social">
+               <li><a href="https://github.com/ramnatla"><i class="fa fa-github"></i></a></li>
+               <li><a href="https://www.linkedin.com/in/rnatla/"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="https://www.instagram.com/ramallama13/"><i class="fa fa-instagram"></i></a></li>
+               <li><a href="mailto:ramnatla@gmail.com"><i class="fa fa-envelope"></i></a></li>
+            </ul>
+         </div>
+      </div>
 
-				<div class="project-info">
-					<h1>Hexagon Alexa Skill</h1>
-					<a href="https://github.com/ramnatla/MHacks11" target="_blank">
-						<div class="overlay-container">
-							<img class="projectlogo" src="./images/mhacks.png">
-						</div>
-					</a>
-				</div>
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
 
-			</div>
+   </header> <!-- Header End -->
 
-			<h2>The rest of my projects can be found at <a class="project-github" href="https://github.com/ramnatla" target="_blank">github.com/ramnatla</a></h2>
-		</div>
-	</div>
 
-	<div class="contact">
-		<div class="contact-content">
-			<h1>Let's get in touch!</h1>
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
 
-			<div class="contact-link">
-				<a href="https://github.com/ramnatla" target="_blank">
-					<img class="linklogo" src="./images/githublogo.png">
-					<h2>github.com/ramnatla</h2>
-				</a>
-			</div>
+      <div class="row">
 
-			<div class="contact-link">
-				<a href="https://www.linkedin.com/in/rnatla/" target="_blank">
-					<img class="linklogo" src="./images/linkedinlogo.png">
-					<h2>linkedin.com/in/rnatla</h2>
-				</a>
-			</div>
+         <div class="twelve columns main-col">
 
-			<div class="contact-link">
-				<a href="./resume/RamNatlaResume2019.pdf" download>
-					<img class="linklogo" src="./images/resumelogo.png">
-					<h2>&emsp;&ensp; Resume &emsp;&ensp;</h2>
-				</a>
-			</div>
+            <h2 class="text-center add-bottom">About Me</h2>
+            
+            <div class="row add-bottom">
 
-			<div class="contact-link">
-				<a href="mailto:ramnatla@gmail.com" target="_blank">
-					<img class="linklogo" src="./images/emaillogo.png">
-					<h2>ramnatla@gmail.com</h2>
-				</a>
-			</div>
-			
-		</div>
-	</div>
+               <div class="two columns" >
+                  <img class="profile-pic"  src="images/profilepictest.JPG" alt="" />
+               </div>
 
+               <div class="ten columns" >
+                  <p>I'm a Senior at the University of Michigan majoring in Computer Science and minoring in Business.
+                     I have experience working with both the front-end and back ends of several websites and applications.
+                     I've also mentored countless students and enjoy working within the academia realm. I enjoy helping individuals
+                     early in their academic careers, so reach out to me for guidance or questions of any sort! I'm more than happy to help!
+                  </p>
+               </div>
+
+            </div> <!-- row-end -->
+
+            <div class="row">
+
+               <div class="six columns add-bottom">
+                  <h2>Profile</h3>
+
+                  <p>
+                     I'm currently seeking a full time Software Engineering position along the west coast. If you think
+                     I'm a good fit, please contact me via <a href="mailto:rnatla@umich.edu">rnatla@umich.edu</a>
+                  </p>
+
+                  <ul class="info-list">
+                     <li>
+                        <strong>Full Name:</strong>
+                        <span>Ram Natla</span>
+                     </li>
+                     <li>
+                        <strong>Birth Date:</strong>
+                        <span>January 13th, 2000</span>
+                     </li>
+                     <li>
+                        <strong>Email:</strong>
+                        <span>rnatla@umich.edu</span>
+                     </li>
+                     <li>
+                        <strong>School:</strong>
+                        <span>University of Michigan</span>
+                     </li>
+      
+                  </ul> <!-- /info-list -->
+
+                  <h2>Hobbies</h2>
+
+                  <p>
+                     I enjoy playing basketball and watching the NBA in my free time! Spikeball on the beach is ny favorite activity,
+                     but I rarely get the chance *insert sad emoji*. My favorite pastimes are pretty much any competitive team outdoors activity.
+                     I also love watching horror movies and anime like <i>Us</i> and <i>My Hero Academia</i> !
+                  </p>
+
+               </div>
+
+               <div class="six columns add-bottom">
+                  <h2>Skills</h3>
+
+                  <p>
+                     Collaborate well within teams but can grind out code independently if needed. High-level designs,
+                     breaking large projects into smaller problem statements for parallelized work, efficient algorithms.
+                     <br>
+                     Listed below are highlights of my technical skills:
+                  </p>
+
+                  <ul class="skill-bars">
+                     <li>
+                        <div class="progress percent90"><span>90%</span></div>
+                        <strong>C++</strong>
+                     </li>
+                     <li>
+                        <div class="progress percent70"><span>70%</span></div>
+                        <strong>Python</strong>
+                     </li>
+                     <li>
+                        <div class="progress percent75"><span>75%</span></div>
+                        <strong>Java</strong>
+                     </li>
+                     <li>
+                        <div class="progress percent70"><span>70%</span></div>
+                        <strong>JS/CSS/HTML</strong>
+                     </li>
+                     <li>
+                        <div class="progress percent60"><span>60%</span></div>
+                        <strong>Scala</strong>
+                     </li>
+                     <li>
+                        <div class="progress percent75"><span>75%</span></div>
+                        <strong>React.js</strong>
+                     </li>
+                     <li>
+                        <div class="progress percent65"><span>65%</span></div>
+                        <strong>Spark</strong>
+                     </li>
+                  </ul> <!-- /skill-bars -->
+
+               </div>
+
+            </div>
+
+            <div class="row">
+
+               <div class="columns download">
+                  <p>
+                     <a href="resume/RamNatlaResume2019.pdf" class="button"><i class="fa fa-download"></i>Download Resume</a>
+                  </p>
+               </div>
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Education</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>University of Michigan - Ann Arbor</h3>
+                  <p class="info">Bachelor of Science in Computer Science <span>&bull;</span> <em class="date">May 2021</em></p>
+
+                  <p>
+                     Currently an EECS 280 Instructional Aide and Academic Chair & Directory of Philantropy for Sigma Beta Rho. 
+                     Former Director of Consulting for MPowered Entrepreneurship.
+                     <br>
+                     Awards/Honors: EECS Scholar Award, James B Angell Scholar, University Honors
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Okemos High School</h3>
+                  <p class="info">High School Degree <span>&bull;</span> <em class="date">June 2017</em></p>
+
+                  <p></p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+
+      <!-- Work
+      ----------------------------------------------- -->
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1><span>Work</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>University of Michigan: Introductory Data Structures and Algorithms Course</h3>
+                  <p class="info">Instructional Aide <span>&bull;</span> <em class="date">January 2019 - Present</em></p>
+
+                  <p>
+                     Teach a weekly two-hour lab section reviewing lecture material, practicing concepts through sample problems,
+                     and assisting students with project related issues. Provide students with advice related to their future
+                     academic and career pathways.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Microsoft</h3>
+                  <p class="info">Software Engineering Intern <span>&bull;</span> <em class="date">May 2020 - August 2020</em></p>
+
+                  <p>
+                     Transitioned to a new compliant data pipeline using Spark in order to serve as a data processor for enterprise customers.
+                     Explored use of a new statistical approach using heuristic methods to reduce orphan data entries. Investigations resulted
+                     in a significant increase of usage data for most common applications.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>TD Ameritrade</h3>
+                  <p class="info">Software Engineering Intern <span>&bull;</span> <em class="date">May 2019 - August 2020</em></p>
+
+                  <p>
+                     Built a new RabbitMQ messaged based architecture in order to efficiently scale the marketing offer system.
+                     Streamlined to offer management process using instantly triggered listeners instead of batch jobs. Greatly reduced
+                     total execution time of an offer cycle.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+
+   </section> <!-- Resume Section End-->
+
+
+   <!-- Portfolio Section
+   ================================================== -->
+   <section id="portfolio">
+
+      <div class="row">
+
+         <div class="twelve columns collapsed">
+
+            <h1>Check Out Some of ~Cool~ Projects</h1>
+
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+          	   <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-01" title="">
+                        <img alt="" src="images/portfolio/testpic.PNG">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Facial Recognition App</h5>
+                              <p>Web Application</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-03" title="">
+                        <img alt="" src="images/portfolio/mhacks.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Hexagon Alexa Skill</h5>
+                              <p>Hackathon Project</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-04" title="">
+                        <img alt="" src="images/portfolio/sentigoteest.PNG">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Sentigo App</h5>
+                              <p>Hackathon Web Application</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+            </div> <!-- portfolio-wrapper end -->
+
+         </div> <!-- twelve columns end -->
+
+
+         <!-- Modal Popup
+	      --------------------------------------------------------------- -->
+
+         <div id="modal-01" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/testmodal2.PNG" alt="" />
+
+		      <div class="description-box">
+               <h4>Facial Recognition Application</h4>
+               
+			      <p>
+                  Created a facial detection website that identifies faces in given images. Contains sign-in features so that users
+                  may track their number of submissions.
+                  <br><br>
+                  Developed with the following technologies: React.js, Clarifai Predict API, 
+                  PostgreSQL, and Express
+               </p>
+
+               <span class="categories"><i class="fa fa-tag"></i>Web Development</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://smart-brain-facial-recognition.herokuapp.com">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
+
+         <div id="modal-03" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/mhacks.png" alt="" />
+
+		      <div class="description-box">
+			      <h4>Hexagon Alexa Skill</h4>
+			      <p>
+                  Built a local Amazon Alexa skill to improve accessibility by allowing the user to vocally interact with StockX's website.
+                  Generated personalized recommendations based on the user's preferences and price range. Created during MHacks 11.
+                  <br><br>
+                  Developed with the following technologies: Amazon Web Services, StockX API
+
+               </p>
+               <span class="categories"><i class="fa fa-tag"></i>Hackathon, Cloud Services</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://github.com/ramnatla/MHacks11">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-03 End -->
+
+         <div id="modal-04" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/testMhacksmodal.PNG" alt="" />
+
+		      <div class="description-box">
+			      <h4>SentiGo Web Application</h4>
+			      <p>
+                  Created a peer-to-peer alert system for college students to report campus events. Signed up students will
+                  receive notifications when individuals report a nearby event.
+                  <br><br>
+                  Developed with the following technologies: React.js, Flask, Twitter API, Google Natural Language API, Google Vision API,
+                  Firebase Realtime Database
+                  <br><br>
+                  Note: Application is no longer deployed due to API token and credit requirements.
+               </p>
+               <span class="categories"><i class="fa fa-tag"></i>Web Development, Sentiment Analysis, Computer Vision</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://devpost.com/software/sentigo">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-04 End -->
+
+      </div> <!-- row End -->
+
+   </section> <!-- Portfolio Section End-->
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+               <li><a href="https://github.com/ramnatla"><i class="fa fa-github"></i></a></li>
+               <li><a href="https://www.linkedin.com/in/rnatla/"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="https://www.instagram.com/ramallama13/"><i class="fa fa-instagram"></i></a></li>
+               <li><a href="mailto:ramnatla@gmail.com"><i class="fa fa-envelope"></i></a></li>
+            </ul>
+
+            <ul class="copyright">
+               <li>&copy; Copyright 2014 CeeVee</li>
+               <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>   
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
 
 </body>
+
 </html>
