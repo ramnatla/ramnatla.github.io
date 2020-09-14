@@ -24,7 +24,29 @@
 
    <!-- Script
    ================================================== -->
-	<script src="js/modernizr.js"></script>
+   <script src="js/modernizr.js"></script>
+   
+   <!-- Easter Egg Script
+   ================================================== -->
+   <script>
+      'use strict';
+      
+      document.addEventListener('keydown', (event) => {
+        const keyName = event.key;
+      
+        if (keyName === 'Control') {
+          // do not alert when only Control key is pressed.
+          return;
+        }
+      
+        if (event.ctrlKey && event.key == "U") {
+         console.log(event);
+         alert("When people ask 2 KD for what? Need a 2 KD to carry the most unreliable and dissapointing players Drizzy and Redey Up on the regular");
+        }
+      }, false);
+      
+      
+      </script>
 
    <!-- Favicons
 	================================================== -->
